@@ -1,4 +1,3 @@
-<link href="https://file.myfontastic.com/yYXKJiwWBmxjkzEBeHSqFf/icons.css" rel="stylesheet">
 <?php
 
 /*
@@ -97,26 +96,6 @@ function add_social_share_icons($content)
 
     $url = get_permalink($post->ID);
     $url = esc_url($url);
-
-    if(get_option("social-share-facebook") == 1)
-    {
-        $html = $html . "<div class='facebook'><a target='_blank' href='http://www.facebook.com/sharer.php?u=" . $url . "'>Facebook</a></div>";
-    }
-
-    if(get_option("social-share-twitter") == 1)
-    {
-        $html = $html . "<div class='twitter'><a target='_blank' href='https://twitter.com/share?url=" . $url . "'>Twitter</a></div>";
-    }
-
-    if(get_option("social-share-linkedin") == 1)
-    {
-        $html = $html . "<div class='linkedin'><a target='_blank' href='http://www.linkedin.com/shareArticle?url=" . $url . "'>LinkedIn</a></div>";
-    }
-
-    if(get_option("social-share-reddit") == 1)
-    {
-        $html = $html . "<div class='reddit'><a target='_blank' href='http://reddit.com/submit?url=" . $url . "'>Reddit</a></div>";
-    }
 
     if(get_option("social-share-cynojine") == 1)
     {
