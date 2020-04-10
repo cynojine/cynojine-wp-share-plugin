@@ -1,3 +1,4 @@
+<link href="https://file.myfontastic.com/yYXKJiwWBmxjkzEBeHSqFf/icons.css" rel="stylesheet">
 <?php
 
 /*
@@ -119,7 +120,7 @@ function add_social_share_icons($content)
 
     if(get_option("social-share-cynojine") == 1)
     {
-        $html = $html . "<div class='cynojine'><a target='_blank' href='https://app.cynojine.com//sharer?url=" . $url . "'>Cynojine</a></div>";
+        $html = $html . "<div class='icon-cynojine'><a target='_blank' href='https://app.cynojine.com//sharer?url=" . $url . "'>Cynojine</a></div>";
     }
 
     $html = $html . "<div class='clear'></div></div>";
