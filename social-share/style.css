@@ -41,6 +41,6 @@
 body {
   background-color: #e5e5e5;
 }
-.icon-cynojine:before {
+.social-share-wrapper div.icon-cynojine:before {
   content: "\63";
 }
