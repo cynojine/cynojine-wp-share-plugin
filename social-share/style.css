@@ -65,6 +65,10 @@
 	color: white;
 }
 
+.icon-cynojinecyno:before {
+	content: "\1f31f";
+  }
+  
 .social-share-wrapper div a
 {
 	text-decoration: none;
